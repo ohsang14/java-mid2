@@ -1,4 +1,4 @@
-package genegic.ex1;
+package generic.ex1;
 
 public class GenericBox<T> { // <T> : 타입 매개변수
     private T value;
