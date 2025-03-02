@@ -1,7 +1,6 @@
-package generic.ex1;
+package genegic.ex1;
 
-public class GenericBox<T> {
-
+public class GenericBox<T> { // <T> : 타입 매개변수
     private T value;
 
     public void set(T value) {
@@ -11,4 +10,5 @@ public class GenericBox<T> {
     public T get() {
         return value;
     }
+
 }

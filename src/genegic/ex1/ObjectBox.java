@@ -1,13 +1,13 @@
-package generic.ex1;
+package genegic.ex1;
 
 public class ObjectBox {
     private Object value;
 
-    public void set(Object object){
+    public void set(Object object) {
         this.value = object;
     }
 
-    public Object get(){
+    public Object get() {
         return value;
     }
 }

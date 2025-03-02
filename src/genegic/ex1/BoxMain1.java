@@ -1,15 +1,15 @@
-package generic.ex1;
+package genegic.ex1;
 
 public class BoxMain1 {
     public static void main(String[] args) {
         IntegerBox integerBox = new IntegerBox();
-        integerBox.setValue(10); // 오토박싱
-        Integer integer = integerBox.getValue();
+        integerBox.set(10);
+        Integer integer = integerBox.get();
         System.out.println("integer = " + integer);
 
         StringBox stringBox = new StringBox();
-        stringBox.setValue("hello");
-        String str = stringBox.getValue();
+        stringBox.set("hello");
+        String str = stringBox.get();
         System.out.println("str = " + str);
     }
 }
